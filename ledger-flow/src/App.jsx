@@ -1,6 +1,6 @@
 import React from "react";
 import TotalAmounts from "./components/TotalAmounts";
-import TransactionForm from "./components/TransactionForm"
+import TransactionForm from "./components/TransactionForm";
 import TransactionList from "./components/TransactionList";
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
       <div className="max-w-6xl mx-auto">
         <header className="mb-12 text-center">
           <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400 mb-2">
-            LedgerFlow
+            My Financier
           </h1>
           <p className="text-gray-400 tracking-widest uppercase text-xs font-medium">
             Personal Finance Manager
