@@ -12,7 +12,7 @@ const App = () => {
             My General Ledger
           </h1>
           <p className="text-gray-400 tracking-widest uppercase text-xs font-medium">
-            Personal Finance Manager
+            Your Personal Finance Manager
           </p>
         </header>
 
