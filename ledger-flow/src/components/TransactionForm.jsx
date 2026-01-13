@@ -1,6 +1,6 @@
 import { Plus, Save, X, Pencil } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { useLedgerStore } from "../../store/useLedgerStore";
+import { useLedgerStore } from "../store/useLedgerStore";
 
 const TransactionForm = () => {
   const { addTransaction, updateTransaction, editingTransaction, cancelEdit } =

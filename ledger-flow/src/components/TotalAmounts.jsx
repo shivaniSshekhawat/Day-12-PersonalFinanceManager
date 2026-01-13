@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useLedgerStore } from "../../store/useLedgerStore";
+import { useLedgerStore } from "../store/useLedgerStore";
 import { PieChart, Pie, Tooltip, Cell, Legend } from "recharts";
 
 const TotalAmounts = () => {

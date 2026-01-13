@@ -1,6 +1,6 @@
 import React from "react";
 import { Trash2, Pencil } from "lucide-react";
-import { useLedgerStore } from "../../store/useLedgerStore";
+import { useLedgerStore } from "../store/useLedgerStore";
 
 const TransactionList = () => {
   const { transactions, deleteTransaction, setEditingTransaction } =
